@@ -11,7 +11,7 @@ func main() {
 		} else if i%5 == 0 {
 			fmt.Print(" Buzz")
 		} else {
-			fmt.Print(" ", i, " ")
+			fmt.Print(" ", i)
 		}
 	}
 }
