@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var atas, bawah, tinggi int
+	var atas, bawah, tinggi float64
 
 	fmt.Print("Masukkan panjang sisi atas trapesium: ")
 	fmt.Scanln(&atas)
