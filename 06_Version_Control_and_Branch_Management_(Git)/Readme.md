@@ -6,25 +6,25 @@
 Untuk menginstall git berbeda caranya tergantung OS yang digunakan oleh user.
 
 ### 2. Setting Up
-- Git init
+- Git init <br>
 Git init digunakan untuk meng-init git pada project
-- Clone
+- Clone <br>
 Git clone digunakan untuk meng-clone project dari git
-- Config
+- Config <br>
 Git config untuk menyetting config pada git
 
 ### 3. Saving Changes
-- Git Status
+- Git Status <br>
 Git Status digunakan untuk melihat status git
-- Add
+- Add <br>
 Git Add digunakan untuk add file yang masi tersimpan pada lokal ke git
-- Commit
+- Commit <br>
 Git Commit digunakan untuk mengcommit file yang telah di add
-- Diff
+- Diff <br>
 Git Diff untuk merubah file dan menambah staging area
-- Stash
+- Stash <br>
 Git Stash untuk meng-stash project
-- Ignore
+- Ignore <br>
 Git Ignore untuk meng-ignore file / folder agar tidak terupload
 
 ### 4. Inspecting Repository and Undoing
