@@ -28,20 +28,26 @@ Git Stash untuk meng-stash project
 Git Ignore untuk meng-ignore file / folder agar tidak terupload
 
 ### 4. Inspecting Repository and Undoing
-- Git Log
+- Git Log <br>
+Git Log untuk melihat versi yang lebih lama
 - Checkout
 - Reset
 
 ### 5. Syncing
 - Git Remote
 - Fetch
-- Push
-- Pull
+- Push <br>
+Git Push untuk mengupload project kita pada platform git
+- Pull <br>
+Git Pull untuk mengambil perubahan yang sudah terjadi pada project kita
 
 ### 6. Branches
+#### Branch digunakan untuk mengupload perubahan yang telah terjadi pada bagian lain agar tidak langsung ke main
 
 ### 7. Pull Request
+#### Pull Request digunakan untuk merge branch baru yang telah dibuat kedalam main
 
 ### 8. Workflow Collaboration
 
-Ada juga kita membahas tentang *versioning*, jadi versioning adalah proses mengatur version dari aplikasi / source code pada git kita.
+
+> Ada juga kita membahas tentang *versioning*, jadi versioning adalah proses mengatur version dari aplikasi / source code pada git kita.
