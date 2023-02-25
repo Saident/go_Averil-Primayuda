@@ -48,6 +48,6 @@ Branch digunakan untuk mengupload perubahan yang telah terjadi pada bagian lain 
 Pull Request digunakan untuk merge branch baru yang telah dibuat kedalam main
 
 ### 8. Workflow Collaboration
-<br><br>
+<br>
 
 > Ada juga kita membahas tentang *versioning*, jadi versioning adalah proses mengatur version dari aplikasi / source code pada git kita.
