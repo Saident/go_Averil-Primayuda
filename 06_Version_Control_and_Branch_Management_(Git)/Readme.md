@@ -41,13 +41,13 @@ Git Push untuk mengupload project kita pada platform git
 - Pull <br>
 Git Pull untuk mengambil perubahan yang sudah terjadi pada project kita
 
-### 6. Branches
-#### Branch digunakan untuk mengupload perubahan yang telah terjadi pada bagian lain agar tidak langsung ke main
+### 6. Branches <br>
+Branch digunakan untuk mengupload perubahan yang telah terjadi pada bagian lain agar tidak langsung ke main
 
-### 7. Pull Request
-#### Pull Request digunakan untuk merge branch baru yang telah dibuat kedalam main
+### 7. Pull Request <br>
+Pull Request digunakan untuk merge branch baru yang telah dibuat kedalam main
 
 ### 8. Workflow Collaboration
-
+<br><br>
 
 > Ada juga kita membahas tentang *versioning*, jadi versioning adalah proses mengatur version dari aplikasi / source code pada git kita.
