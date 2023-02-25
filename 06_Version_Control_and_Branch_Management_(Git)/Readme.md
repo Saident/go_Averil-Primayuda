@@ -1,4 +1,4 @@
-# Section 7 Version Control and Branch Management (Git)
+# Section 6 Version Control and Branch Management (Git)
 
 ## Mempelajari beberapa hal seperti :
 
