@@ -3,20 +3,10 @@ package main
 import "fmt"
 
 func fibonacci(number int) int {
-	fibo := []int{0, 1}
-	if number == 0 {
-		return 0
-	} else if number < 0 {
-		return 0
-	} else if number == 2|1 {
-		return 1
-	} else {
-		for i := 2; i <= number; i++ {
-			inp := fibo[i-2] + fibo[i-1]
-			fibo = append(fibo, inp)
-		}
-		return fibo[len(fibo)-1]
-	}
+    if number <= 1 {
+        return number
+    }
+    return fibonacci(number-1) + fibonacci(number-2)
 }
 
 func main() {
