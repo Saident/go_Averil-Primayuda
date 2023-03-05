@@ -7,8 +7,7 @@ func toPascal(numRows int) [][]int {
 
 	for i := 0; i < numRows; i++ {
 		arr := make([]int, i+1)
-		arr[0] = 1
-		arr[len(arr)-1] = 1
+		arr[0], arr[len(arr)-1] = 1, 1
 		output[i] = arr
 		for j := 0; j < len(arr); j++ {
 			if i > 1 {
