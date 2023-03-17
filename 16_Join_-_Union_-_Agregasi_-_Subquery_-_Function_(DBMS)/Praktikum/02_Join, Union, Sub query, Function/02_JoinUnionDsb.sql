@@ -46,3 +46,4 @@ BEGIN
 END
 
 -- 8--
+SELECT * FROM products WHERE id NOT IN (SELECT prod_id FROM transaction_details);
