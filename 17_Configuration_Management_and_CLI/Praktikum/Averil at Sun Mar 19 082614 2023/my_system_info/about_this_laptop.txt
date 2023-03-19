@@ -1,0 +1,2 @@
+My username: averilp
+MINGW64_NT-10.0-19045 LAPTOP-Ganteng 3.0.7-338.x86_64 2019-11-21 23:07 UTC x86_64 Msys

@@ -1,0 +1,11 @@
+
+Pinging google.com [74.125.130.102] with 32 bytes of data:
+Reply from 74.125.130.102: bytes=32 time=65ms TTL=101
+Reply from 74.125.130.102: bytes=32 time=173ms TTL=101
+Reply from 74.125.130.102: bytes=32 time=79ms TTL=101
+Reply from 74.125.130.102: bytes=32 time=99ms TTL=101
+
+Ping statistics for 74.125.130.102:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 65ms, Maximum = 173ms, Average = 104ms
