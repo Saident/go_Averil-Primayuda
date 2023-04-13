@@ -18,7 +18,6 @@ func TestGetUsersController(t *testing.T) {
 	// Test case: Get all users
 	if assert.NoError(t, GetUsersController(c)) {
 		assert.Equal(t, http.StatusOK, rec.Code)
-
 		// TODO: Add more assertions for the response body
 	}
 }
@@ -59,7 +58,7 @@ func TestDeleteUserController(t *testing.T) {
 
 	if assert.NoError(t, DeleteUserController(c)) {
 		assert.Equal(t, http.StatusOK, rec.Code)
-		
+
 	}
 }
 
@@ -79,7 +78,7 @@ func TestUpdateUserController(t *testing.T) {
 
 func TestLoginUserController(t *testing.T) {
 	e := echo.New()
-	req := httptest.NewRequest(http.MethodPut, "/login", nil)
+	req := httptest.NewRequest(http.MethodPost, "/login", nil)
 	rec := httptest.NewRecorder()
 	c := e.NewContext(req, rec)
 
