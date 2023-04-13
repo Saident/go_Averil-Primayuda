@@ -14,12 +14,8 @@ func TestGetBooksController(t *testing.T) {
 	req := httptest.NewRequest(http.MethodGet, "/books", nil)
 	rec := httptest.NewRecorder()
 	c := e.NewContext(req, rec)
-
-	// Test case: Get all users
 	if assert.NoError(t, GetBooksController(c)) {
 		assert.Equal(t, http.StatusOK, rec.Code)
-
-		// TODO: Add more assertions for the response body
 	}
 }
 
@@ -28,12 +24,8 @@ func TestGetBookController(t *testing.T) {
 	req := httptest.NewRequest(http.MethodGet, "/books/1", nil)
 	rec := httptest.NewRecorder()
 	c := e.NewContext(req, rec)
-
-	// Test case: Get all users
 	if assert.NoError(t, GetBookController(c)) {
 		assert.Equal(t, http.StatusOK, rec.Code)
-
-		// TODO: Add more assertions for the response body
 	}
 }
 
@@ -42,12 +34,8 @@ func TestCreateBookController(t *testing.T) {
 	req := httptest.NewRequest(http.MethodPost, "/books", nil)
 	rec := httptest.NewRecorder()
 	c := e.NewContext(req, rec)
-
-	// Test case: Get all users
 	if assert.NoError(t, CreateBookController(c)) {
 		assert.Equal(t, http.StatusOK, rec.Code)
-
-		// TODO: Add more assertions for the response body
 	}
 }
 
@@ -56,12 +44,8 @@ func TestDeleteBookController(t *testing.T) {
 	req := httptest.NewRequest(http.MethodDelete, "/books/1", nil)
 	rec := httptest.NewRecorder()
 	c := e.NewContext(req, rec)
-
-	// Test case: Get all users
 	if assert.NoError(t, DeleteBookController(c)) {
 		assert.Equal(t, http.StatusOK, rec.Code)
-
-		// TODO: Add more assertions for the response body
 	}
 }
 
@@ -70,11 +54,7 @@ func TestUpdateBookController(t *testing.T) {
 	req := httptest.NewRequest(http.MethodPut, "/books/1", nil)
 	rec := httptest.NewRecorder()
 	c := e.NewContext(req, rec)
-
-	// Test case: Get all users
 	if assert.NoError(t, UpdateBookController(c)) {
 		assert.Equal(t, http.StatusOK, rec.Code)
-
-		// TODO: Add more assertions for the response body
 	}
 }
