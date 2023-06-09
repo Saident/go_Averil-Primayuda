@@ -1,0 +1,3 @@
+[submodule "27_CI_CD/Praktikum/alta-batch-4-cicd"]
+	path = 27_CI_CD/Praktikum/alta-batch-4-cicd
+	url = https://github.com/Saident/alta-batch-4-cicd.git
